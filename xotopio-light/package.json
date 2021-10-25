@@ -1,0 +1,25 @@
+{
+    "name": "xotopio-light",
+    "displayName": "xotopio-light",
+    "publisher": "xotopio",
+    "version": "0.29.0",
+    "description": "light version of xotopio",
+    "icon": "icon.png",
+    "category": "Theme",
+    "repository": "https://github.com/xotopio/xotopio.light",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "xotopio-light",
+                "uiTheme": "vs",
+                "path": "./themes/xotopio-light-color-theme.json"
+            }
+        ]
+    }
+}
